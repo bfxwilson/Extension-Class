@@ -13,8 +13,20 @@ int main (int argc, const char * argv[])
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-    // insert code here...
-    NSLog(@"Hello, World!");
+    printf("C String\n");
+    NSLog(@"Hello, NSString!");
+    
+    NSObject *obj = [[NSObject alloc] init];
+    NSLog(@"obj: %@", obj);
+    NSLog(@"obj: %@", [obj description]);
+    [obj release];
+    
+    int count = 1234;
+    NSString *s1 = [[NSString alloc] initWithFormat:@"count: %i", count];
+    NSLog(@"s1: %@" , s1);
+    NSLog(@"s1: %@", [s1 description]);
+    
+                    
 
     [pool drain];
     return 0;
