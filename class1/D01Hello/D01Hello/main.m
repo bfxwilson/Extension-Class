@@ -84,11 +84,11 @@ int main (int argc, const char * argv[])
     //NSString with Instance methods
     NSString *s50 = [[NSString alloc] initWithString:@"red"];
     NSUInteger length = [s50 length];
-    NSLog(@"length: %lu", length);
+    NSLog(@"length:  %@ %lu", s50, length);
     
     //NSString with Class metho
     NSString *s60 = [NSString stringWithString: @"blue"];
-    NSLog (@"length: %lu", [s60 length]);
+    NSLog (@"length: %@ %lu", s60, [s60 length]);
     
     [pool drain];
     return 0;
