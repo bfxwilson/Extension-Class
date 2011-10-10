@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'bw03Collections' target in the 'bw03Collections' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
