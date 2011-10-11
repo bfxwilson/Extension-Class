@@ -52,8 +52,49 @@ int main (int argc, const char * argv[])
         NSLog(@"num: %@", num);
         NSLog(@"num: %i", [num intValue]);
     }
-    
     [array2 release];
+    
+    // Mary test for initwithformat string construction.
+    int num = 2;
+    NSString *testBrian = [[NSString alloc] initWithFormat:@"string1 %i, string2 %i", num, num];
+    NSLog(@"%@", testBrian);
+    [testBrian release];
+    
+    NSLog(@"NSMutableArray Demonstration");
+    NSMutableArray *array4 = [[NSMutableArray alloc] init];
+    [array4 addObject:@"One"];
+    [array4 addObject:@"Two"];
+    [array4 addObject:@"Three"];
+    [array4 insertObject:@"oneandahalf" atIndex:1];
+    NSLog(@"%@", array4);
+    
+    [array4 removeObjectAtIndex:1];
+    
+    for (NSString *s in array4) {
+        NSLog(@"%@", s);
+    }
+        
+    
+    [array4 release];
+    
+    //use dictionary quite often
+    NSDictionary *d = [[NSDictionary alloc] initWithObjectsAndKeys:@"ObjOne", @"KeyOne", @"ObjTwo", @"KeyTwo",
+                       @"ObjThree", @"KeyThree", nil];
+    NSLog(@"%@", d);
+    
+    for (NSString *key in d) {
+        NSString *value = [d objectForKey:key];
+        NSLog(@"%@: %@", key, value);
+    }
+  
+    [d release];
+    
+    NSMutableDictionary *d2 = [[NSMutableDictionary alloc] init];
+    [d2 setValue:@"ValueOne" forKey:@"KeyOne"];
+    [d2 setValue:@"ValueTwo" forKey:@"KeyTwo"];
+    NSLog(@"%@", d2);
+    
+    [d2 release];
     
     
 
