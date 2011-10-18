@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33722F2143CB54E003E9911 /* BWDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D33722F1143CB54E003E9911 /* BWDemo.m */; };
 		D34E4ABC143969F900A6BF41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34E4ABB143969F900A6BF41 /* Foundation.framework */; };
 		D34E4ABF143969F900A6BF41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D34E4ABE143969F900A6BF41 /* main.m */; };
 		D34E4AC3143969F900A6BF41 /* BW02Hello.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D34E4AC2143969F900A6BF41 /* BW02Hello.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D33722F0143CB54E003E9911 /* BWDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWDemo.h; sourceTree = "<group>"; };
+		D33722F1143CB54E003E9911 /* BWDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWDemo.m; sourceTree = "<group>"; };
 		D34E4AB7143969F900A6BF41 /* BW02Hello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BW02Hello; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34E4ABB143969F900A6BF41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D34E4ABE143969F900A6BF41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				D34E4ABE143969F900A6BF41 /* main.m */,
 				D34E4AC2143969F900A6BF41 /* BW02Hello.1 */,
 				D34E4AC0143969F900A6BF41 /* Supporting Files */,
+				D33722F0143CB54E003E9911 /* BWDemo.h */,
+				D33722F1143CB54E003E9911 /* BWDemo.m */,
 			);
 			path = BW02Hello;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D34E4ABF143969F900A6BF41 /* main.m in Sources */,
+				D33722F2143CB54E003E9911 /* BWDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +233,7 @@
 				D34E4AC8143969F900A6BF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
