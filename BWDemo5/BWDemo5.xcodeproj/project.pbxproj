@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D358EDA3145A37C200431C6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D358EDA2145A37C200431C6E /* UIKit.framework */; };
+		D358EDA5145A37C200431C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D358EDA4145A37C200431C6E /* Foundation.framework */; };
+		D358EDA7145A37C200431C6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D358EDA6145A37C200431C6E /* CoreGraphics.framework */; };
+		D358EDAD145A37C200431C6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D358EDAB145A37C200431C6E /* InfoPlist.strings */; };
+		D358EDAF145A37C200431C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D358EDAE145A37C200431C6E /* main.m */; };
+		D358EDB3145A37C200431C6E /* BWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D358EDB2145A37C200431C6E /* BWAppDelegate.m */; };
+		D358EDBA145A410600431C6E /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = D358EDB9145A410600431C6E /* readme.txt */; };
+		D358EDBD145A4EF100431C6E /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = D358EDBC145A4EF100431C6E /* Hello.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D358ED9E145A37C200431C6E /* BWDemo5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWDemo5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D358EDA2145A37C200431C6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D358EDA4145A37C200431C6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D358EDA6145A37C200431C6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D358EDAA145A37C200431C6E /* BWDemo5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BWDemo5-Info.plist"; sourceTree = "<group>"; };
+		D358EDAC145A37C200431C6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D358EDAE145A37C200431C6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D358EDB0145A37C200431C6E /* BWDemo5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BWDemo5-Prefix.pch"; sourceTree = "<group>"; };
+		D358EDB1145A37C200431C6E /* BWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWAppDelegate.h; sourceTree = "<group>"; };
+		D358EDB2145A37C200431C6E /* BWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWAppDelegate.m; sourceTree = "<group>"; };
+		D358EDB9145A410600431C6E /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		D358EDBB145A4EF100431C6E /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		D358EDBC145A4EF100431C6E /* Hello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D358ED9B145A37C200431C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D358EDA3145A37C200431C6E /* UIKit.framework in Frameworks */,
+				D358EDA5145A37C200431C6E /* Foundation.framework in Frameworks */,
+				D358EDA7145A37C200431C6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D358ED93145A37C200431C6E = {
+			isa = PBXGroup;
+			children = (
+				D358EDA8145A37C200431C6E /* BWDemo5 */,
+				D358EDA1145A37C200431C6E /* Frameworks */,
+				D358ED9F145A37C200431C6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D358ED9F145A37C200431C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D358ED9E145A37C200431C6E /* BWDemo5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D358EDA1145A37C200431C6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D358EDA2145A37C200431C6E /* UIKit.framework */,
+				D358EDA4145A37C200431C6E /* Foundation.framework */,
+				D358EDA6145A37C200431C6E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D358EDA8145A37C200431C6E /* BWDemo5 */ = {
+			isa = PBXGroup;
+			children = (
+				D358EDB1145A37C200431C6E /* BWAppDelegate.h */,
+				D358EDB2145A37C200431C6E /* BWAppDelegate.m */,
+				D358EDA9145A37C200431C6E /* Supporting Files */,
+				D358EDB9145A410600431C6E /* readme.txt */,
+				D358EDBB145A4EF100431C6E /* Hello.h */,
+				D358EDBC145A4EF100431C6E /* Hello.m */,
+			);
+			path = BWDemo5;
+			sourceTree = "<group>";
+		};
+		D358EDA9145A37C200431C6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D358EDAA145A37C200431C6E /* BWDemo5-Info.plist */,
+				D358EDAB145A37C200431C6E /* InfoPlist.strings */,
+				D358EDAE145A37C200431C6E /* main.m */,
+				D358EDB0145A37C200431C6E /* BWDemo5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D358ED9D145A37C200431C6E /* BWDemo5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D358EDB6145A37C200431C6E /* Build configuration list for PBXNativeTarget "BWDemo5" */;
+			buildPhases = (
+				D358ED9A145A37C200431C6E /* Sources */,
+				D358ED9B145A37C200431C6E /* Frameworks */,
+				D358ED9C145A37C200431C6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWDemo5;
+			productName = BWDemo5;
+			productReference = D358ED9E145A37C200431C6E /* BWDemo5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D358ED95145A37C200431C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D358ED98145A37C200431C6E /* Build configuration list for PBXProject "BWDemo5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D358ED93145A37C200431C6E;
+			productRefGroup = D358ED9F145A37C200431C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D358ED9D145A37C200431C6E /* BWDemo5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D358ED9C145A37C200431C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D358EDAD145A37C200431C6E /* InfoPlist.strings in Resources */,
+				D358EDBA145A410600431C6E /* readme.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D358ED9A145A37C200431C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D358EDAF145A37C200431C6E /* main.m in Sources */,
+				D358EDB3145A37C200431C6E /* BWAppDelegate.m in Sources */,
+				D358EDBD145A4EF100431C6E /* Hello.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D358EDAB145A37C200431C6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D358EDAC145A37C200431C6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D358EDB4145A37C200431C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D358EDB5145A37C200431C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D358EDB7145A37C200431C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWDemo5/BWDemo5-Prefix.pch";
+				INFOPLIST_FILE = "BWDemo5/BWDemo5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D358EDB8145A37C200431C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWDemo5/BWDemo5-Prefix.pch";
+				INFOPLIST_FILE = "BWDemo5/BWDemo5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D358ED98145A37C200431C6E /* Build configuration list for PBXProject "BWDemo5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D358EDB4145A37C200431C6E /* Debug */,
+				D358EDB5145A37C200431C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D358EDB6145A37C200431C6E /* Build configuration list for PBXNativeTarget "BWDemo5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D358EDB7145A37C200431C6E /* Debug */,
+				D358EDB8145A37C200431C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D358ED95145A37C200431C6E /* Project object */;
+}
