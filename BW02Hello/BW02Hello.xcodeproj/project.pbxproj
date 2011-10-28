@@ -119,6 +119,7 @@
 		D34E4AAE143969F900A6BF41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Qualcomm;
 			};
 			buildConfigurationList = D34E4AB1143969F900A6BF41 /* Build configuration list for PBXProject "BW02Hello" */;

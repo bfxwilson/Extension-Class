@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D38382A61450FDB400421D6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38382A51450FDB400421D6C /* UIKit.framework */; };
+		D38382A81450FDB400421D6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38382A71450FDB400421D6C /* Foundation.framework */; };
+		D38382AA1450FDB400421D6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38382A91450FDB400421D6C /* CoreGraphics.framework */; };
+		D38382B01450FDB400421D6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D38382AE1450FDB400421D6C /* InfoPlist.strings */; };
+		D38382B21450FDB400421D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D38382B11450FDB400421D6C /* main.m */; };
+		D38382B61450FDB400421D6C /* BWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D38382B51450FDB400421D6C /* BWAppDelegate.m */; };
+		D38382B91450FDB400421D6C /* BWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38382B81450FDB400421D6C /* BWViewController.m */; };
+		D38382BC1450FDB400421D6C /* BWViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38382BA1450FDB400421D6C /* BWViewController_iPhone.xib */; };
+		D38382BF1450FDB400421D6C /* BWViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38382BD1450FDB400421D6C /* BWViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D38382A11450FDB400421D6C /* bwdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bwdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38382A51450FDB400421D6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D38382A71450FDB400421D6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D38382A91450FDB400421D6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D38382AD1450FDB400421D6C /* bwdemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bwdemo-Info.plist"; sourceTree = "<group>"; };
+		D38382AF1450FDB400421D6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D38382B11450FDB400421D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D38382B31450FDB400421D6C /* bwdemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bwdemo-Prefix.pch"; sourceTree = "<group>"; };
+		D38382B41450FDB400421D6C /* BWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWAppDelegate.h; sourceTree = "<group>"; };
+		D38382B51450FDB400421D6C /* BWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWAppDelegate.m; sourceTree = "<group>"; };
+		D38382B71450FDB400421D6C /* BWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWViewController.h; sourceTree = "<group>"; };
+		D38382B81450FDB400421D6C /* BWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWViewController.m; sourceTree = "<group>"; };
+		D38382BB1450FDB400421D6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BWViewController_iPhone.xib; sourceTree = "<group>"; };
+		D38382BE1450FDB400421D6C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BWViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D383829E1450FDB400421D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38382A61450FDB400421D6C /* UIKit.framework in Frameworks */,
+				D38382A81450FDB400421D6C /* Foundation.framework in Frameworks */,
+				D38382AA1450FDB400421D6C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D38382961450FDB400421D6C = {
+			isa = PBXGroup;
+			children = (
+				D38382AB1450FDB400421D6C /* bwdemo */,
+				D38382A41450FDB400421D6C /* Frameworks */,
+				D38382A21450FDB400421D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D38382A21450FDB400421D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D38382A11450FDB400421D6C /* bwdemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D38382A41450FDB400421D6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D38382A51450FDB400421D6C /* UIKit.framework */,
+				D38382A71450FDB400421D6C /* Foundation.framework */,
+				D38382A91450FDB400421D6C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D38382AB1450FDB400421D6C /* bwdemo */ = {
+			isa = PBXGroup;
+			children = (
+				D38382B41450FDB400421D6C /* BWAppDelegate.h */,
+				D38382B51450FDB400421D6C /* BWAppDelegate.m */,
+				D38382B71450FDB400421D6C /* BWViewController.h */,
+				D38382B81450FDB400421D6C /* BWViewController.m */,
+				D38382BA1450FDB400421D6C /* BWViewController_iPhone.xib */,
+				D38382BD1450FDB400421D6C /* BWViewController_iPad.xib */,
+				D38382AC1450FDB400421D6C /* Supporting Files */,
+			);
+			path = bwdemo;
+			sourceTree = "<group>";
+		};
+		D38382AC1450FDB400421D6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D38382AD1450FDB400421D6C /* bwdemo-Info.plist */,
+				D38382AE1450FDB400421D6C /* InfoPlist.strings */,
+				D38382B11450FDB400421D6C /* main.m */,
+				D38382B31450FDB400421D6C /* bwdemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D38382A01450FDB400421D6C /* bwdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D38382C21450FDB400421D6C /* Build configuration list for PBXNativeTarget "bwdemo" */;
+			buildPhases = (
+				D383829D1450FDB400421D6C /* Sources */,
+				D383829E1450FDB400421D6C /* Frameworks */,
+				D383829F1450FDB400421D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bwdemo;
+			productName = bwdemo;
+			productReference = D38382A11450FDB400421D6C /* bwdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D38382981450FDB400421D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D383829B1450FDB400421D6C /* Build configuration list for PBXProject "bwdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D38382961450FDB400421D6C;
+			productRefGroup = D38382A21450FDB400421D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D38382A01450FDB400421D6C /* bwdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D383829F1450FDB400421D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38382B01450FDB400421D6C /* InfoPlist.strings in Resources */,
+				D38382BC1450FDB400421D6C /* BWViewController_iPhone.xib in Resources */,
+				D38382BF1450FDB400421D6C /* BWViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D383829D1450FDB400421D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38382B21450FDB400421D6C /* main.m in Sources */,
+				D38382B61450FDB400421D6C /* BWAppDelegate.m in Sources */,
+				D38382B91450FDB400421D6C /* BWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D38382AE1450FDB400421D6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38382AF1450FDB400421D6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D38382BA1450FDB400421D6C /* BWViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38382BB1450FDB400421D6C /* en */,
+			);
+			name = BWViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D38382BD1450FDB400421D6C /* BWViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D38382BE1450FDB400421D6C /* en */,
+			);
+			name = BWViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D38382C01450FDB400421D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D38382C11450FDB400421D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D38382C31450FDB400421D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bwdemo/bwdemo-Prefix.pch";
+				INFOPLIST_FILE = "bwdemo/bwdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D38382C41450FDB400421D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bwdemo/bwdemo-Prefix.pch";
+				INFOPLIST_FILE = "bwdemo/bwdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D383829B1450FDB400421D6C /* Build configuration list for PBXProject "bwdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38382C01450FDB400421D6C /* Debug */,
+				D38382C11450FDB400421D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D38382C21450FDB400421D6C /* Build configuration list for PBXNativeTarget "bwdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D38382C31450FDB400421D6C /* Debug */,
+				D38382C41450FDB400421D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D38382981450FDB400421D6C /* Project object */;
+}
