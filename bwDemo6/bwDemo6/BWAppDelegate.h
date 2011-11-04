@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BWAppDelegate : UIResponder <UIApplicationDelegate>
+@interface BWAppDelegate : UIResponder <UIApplicationDelegate> {
+    UIWebView *webView;
+    NSMutableData *myData; //represents a buffer and the buffer can grow
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
