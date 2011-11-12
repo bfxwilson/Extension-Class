@@ -11,6 +11,9 @@
 @interface BWAppDelegate : UIResponder <UIApplicationDelegate, NSXMLParserDelegate> {
     
     NSMutableString *ms;
+    BOOL bugIdFlag;
+    NSString *bugIdString;
+    NSInteger bugId;
     
 }
 

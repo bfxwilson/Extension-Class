@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE93BDEC14637129004C5F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE93BDEB14637129004C5F2F /* UIKit.framework */; };
+		FE93BDEE14637129004C5F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE93BDED14637129004C5F2F /* Foundation.framework */; };
+		FE93BDF014637129004C5F2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE93BDEF14637129004C5F2F /* CoreGraphics.framework */; };
+		FE93BDF614637129004C5F2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE93BDF414637129004C5F2F /* InfoPlist.strings */; };
+		FE93BDF914637129004C5F2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93BDF814637129004C5F2F /* main.m */; };
+		FE93BDFC14637129004C5F2F /* Meeting6AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE93BDFB14637129004C5F2F /* Meeting6AppDelegate.m */; };
+		FE93BDFF14637129004C5F2F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE93BDFD14637129004C5F2F /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE93BDE714637129004C5F2F /* Meeting6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meeting6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE93BDEB14637129004C5F2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE93BDED14637129004C5F2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE93BDEF14637129004C5F2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE93BDF314637129004C5F2F /* Meeting6-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meeting6-Info.plist"; sourceTree = "<group>"; };
+		FE93BDF514637129004C5F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE93BDF714637129004C5F2F /* Meeting6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meeting6-Prefix.pch"; sourceTree = "<group>"; };
+		FE93BDF814637129004C5F2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE93BDFA14637129004C5F2F /* Meeting6AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meeting6AppDelegate.h; sourceTree = "<group>"; };
+		FE93BDFB14637129004C5F2F /* Meeting6AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meeting6AppDelegate.m; sourceTree = "<group>"; };
+		FE93BDFE14637129004C5F2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE93BDE414637129004C5F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE93BDEC14637129004C5F2F /* UIKit.framework in Frameworks */,
+				FE93BDEE14637129004C5F2F /* Foundation.framework in Frameworks */,
+				FE93BDF014637129004C5F2F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE93BDDC14637129004C5F2F = {
+			isa = PBXGroup;
+			children = (
+				FE93BDF114637129004C5F2F /* Meeting6 */,
+				FE93BDEA14637129004C5F2F /* Frameworks */,
+				FE93BDE814637129004C5F2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE93BDE814637129004C5F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE93BDE714637129004C5F2F /* Meeting6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE93BDEA14637129004C5F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE93BDEB14637129004C5F2F /* UIKit.framework */,
+				FE93BDED14637129004C5F2F /* Foundation.framework */,
+				FE93BDEF14637129004C5F2F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE93BDF114637129004C5F2F /* Meeting6 */ = {
+			isa = PBXGroup;
+			children = (
+				FE93BDFA14637129004C5F2F /* Meeting6AppDelegate.h */,
+				FE93BDFB14637129004C5F2F /* Meeting6AppDelegate.m */,
+				FE93BDFD14637129004C5F2F /* MainWindow.xib */,
+				FE93BDF214637129004C5F2F /* Supporting Files */,
+			);
+			path = Meeting6;
+			sourceTree = "<group>";
+		};
+		FE93BDF214637129004C5F2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE93BDF314637129004C5F2F /* Meeting6-Info.plist */,
+				FE93BDF414637129004C5F2F /* InfoPlist.strings */,
+				FE93BDF714637129004C5F2F /* Meeting6-Prefix.pch */,
+				FE93BDF814637129004C5F2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE93BDE614637129004C5F2F /* Meeting6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE93BE0214637129004C5F2F /* Build configuration list for PBXNativeTarget "Meeting6" */;
+			buildPhases = (
+				FE93BDE314637129004C5F2F /* Sources */,
+				FE93BDE414637129004C5F2F /* Frameworks */,
+				FE93BDE514637129004C5F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meeting6;
+			productName = Meeting6;
+			productReference = FE93BDE714637129004C5F2F /* Meeting6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE93BDDE14637129004C5F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Servin Corporation";
+			};
+			buildConfigurationList = FE93BDE114637129004C5F2F /* Build configuration list for PBXProject "Meeting6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE93BDDC14637129004C5F2F;
+			productRefGroup = FE93BDE814637129004C5F2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE93BDE614637129004C5F2F /* Meeting6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE93BDE514637129004C5F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE93BDF614637129004C5F2F /* InfoPlist.strings in Resources */,
+				FE93BDFF14637129004C5F2F /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE93BDE314637129004C5F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE93BDF914637129004C5F2F /* main.m in Sources */,
+				FE93BDFC14637129004C5F2F /* Meeting6AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE93BDF414637129004C5F2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE93BDF514637129004C5F2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE93BDFD14637129004C5F2F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE93BDFE14637129004C5F2F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE93BE0014637129004C5F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE93BE0114637129004C5F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FE93BE0314637129004C5F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meeting6/Meeting6-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Meeting6/Meeting6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE93BE0414637129004C5F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meeting6/Meeting6-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Meeting6/Meeting6-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE93BDE114637129004C5F2F /* Build configuration list for PBXProject "Meeting6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE93BE0014637129004C5F2F /* Debug */,
+				FE93BE0114637129004C5F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE93BE0214637129004C5F2F /* Build configuration list for PBXNativeTarget "Meeting6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE93BE0314637129004C5F2F /* Debug */,
+				FE93BE0414637129004C5F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE93BDDE14637129004C5F2F /* Project object */;
+}

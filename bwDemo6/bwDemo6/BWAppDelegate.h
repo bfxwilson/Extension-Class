@@ -11,6 +11,7 @@
 @interface BWAppDelegate : UIResponder <UIApplicationDelegate> {
     UIWebView *webView;
     NSMutableData *myData; //represents a buffer and the buffer can grow
+    NSURLConnection *myConnection;
 }
 
 @property (strong, nonatomic) UIWindow *window;

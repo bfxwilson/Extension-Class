@@ -43,15 +43,120 @@
     ////
     [xmlParser release];
     
-    [self.window addSubview:textView];
-    [textView release];
+    /*
+     NSArray
+     */
+    NSArray *array = [[NSArray alloc] initWithObjects:@"one", @"two", nil];
+    for (int i = 0; i < [array count]; i++) {
+        [ms appendFormat:@"%@\n", [array objectAtIndex:i]];
+    }
+    for (NSString *s in array) {
+        [ms appendFormat:@"%@\n", s];
+    }
     
-    self.window.backgroundColor = [UIColor greenColor];
+    /* 
+     NSBundle
+     */
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *bundleId = [bundle bundleIdentifier];
+    [ms appendFormat:@"bundleIdentifier: %@\n", bundleId];
+    
+    NSString *bundlePath = [bundle bundlePath];
+    [ms appendFormat:@"bundlePath: %@\n", bundlePath];
+    
+    NSString *filePath = [bundle pathForResource:@"demo" ofType:@"xml"];
+    [ms appendFormat:@"filepath: %@\n", filePath];
+    
+    /* 
+     NSData A data buffer
+      */
+    const char *buffer = "Hello World";
+    NSData *myData = [NSData dataWithBytes:buffer length:strlen(buffer)];
+    [ms appendFormat:@"myData Description: %@\nLength: %i\n", [myData description], [myData length]];
+    
+    /* 
+     NSDate
+     */
+    NSDate *date = [NSDate date];
+    [ms appendFormat:@"%@\n", date];
+    
+    // NSDateFormatter
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setTimeStyle:NSDateFormatterNoStyle];
+    [formatter setDateStyle:NSDateFormatterMediumStyle];
+    NSString *dateString = [formatter stringFromDate:date];
+    [ms appendFormat:@"%@\n", dateString];
+  
+    
+    [formatter setTimeStyle:NSDateFormatterMediumStyle];
+    [formatter setDateStyle:NSDateFormatterNoStyle];
+    dateString = [formatter stringFromDate:date];
+    [ms appendFormat:@"%@\n", dateString];
+    
+    NSDate *newDate = [NSDate dateWithTimeIntervalSinceNow:60];
+    [ms appendFormat:@"%@\n", newDate];
+    
+    
+    /*
+     nsdictionary
+     */
+    NSDictionary *d = [[NSDictionary alloc] initWithObjectsAndKeys:@"obj1", @"key1", @"obj2", @"key2", nil];
+    for (NSString *key in d ) {
+        NSString *value = [d objectForKey:key];
+        [ms appendFormat:@"%@-%@\n", key, value];
+    }
+    
+    /*
+     nsfilehandle
+     */
+    NSFileHandle *handle = [NSFileHandle fileHandleForReadingAtPath:xmlFilePathname];
+    NSData *fileBuffer = [handle readDataToEndOfFile];
+    NSString *fileString = [[NSString alloc] initWithData:fileBuffer encoding:NSUTF8StringEncoding];
+    [ms appendFormat:@"%@\n", fileString];
+    
+    // NSFileManager
+    NSFileManager *fm = [NSFileManager defaultManager];
+    NSString *currentDirectory = [fm currentDirectoryPath];
+    [ms appendFormat:@"Current Directory: %@\n", fm];
+    
+    NSArray *dirContents = [fm contentsOfDirectoryAtPath:currentDirectory error:nil];
+    for (NSString *file in dirContents) {
+        [ms appendFormat:@"%@\n", file];
+    }
+    
+    //nsprocessinfo
+    NSProcessInfo *pi = [NSProcessInfo processInfo];
+    [ms appendFormat:@"Process name: %@\n", [pi processName]];
+    [ms appendFormat:@"os name: %@\n", [pi operatingSystemName]];
+    [ms appendFormat:@"cpu count: %i\n", [pi processorCount]];
+    
+    /*
+     NSThread 
+     very bad to hang system for 10 seconds
+     */
+    //[NSThread sleepForTimeInterval:10];
+    
+//    NSThread *myThread = [[NSThread alloc] init];
+//    [self performSelector:@selector(doThreadDemo) onThread:myThread withObject:nil waitUntilDone:NO];
+    [self performSelectorInBackground:@selector(doThreadDemo:) withObject:nil];
+
+    
+    [self.window addSubview:textView];
+    textView.backgroundColor = [UIColor blueColor];
+    [textView release]; //textview is our window pane.
+    
+    self.window.backgroundColor = [UIColor greenColor]; // This will color the background window that we don't see.
     textView.text = ms;
 
     
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void)doThreadDemo:(NSObject *)obj {
+    NSLog(@"Before Sleep");
+    [NSThread sleepForTimeInterval:10];
+    NSLog(@"After Sleep");
 }
 
 -(void)parserDidStartDocument:(NSXMLParser *)parser {
@@ -70,6 +175,21 @@
 
 -(void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
     [ms appendFormat:@"%@\n", elementName];
+    //look for bug ID
+    if ([elementName compare:@"radar:bugID"] == NSOrderedSame ) {
+        bugIdFlag = YES;
+    }
+}
+-(void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
+    
+    if (bugIdFlag == YES ) {
+        bugIdString = string;
+        [bugIdString retain];
+        bugId = [bugIdString intValue];
+        [ms appendFormat:@"bugIDString: %@\n bugID: %i\n", bugIdString, bugId];
+        bugIdFlag = NO;
+    
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

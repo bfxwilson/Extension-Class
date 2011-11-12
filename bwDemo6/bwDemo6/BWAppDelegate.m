@@ -70,7 +70,7 @@
 //Host: www.webservicex.net
 //
     
-    NSString *webServiceString = @"http://www.webservicex.net/ConvertTemperature.asmx/ConvertTemp" 
+    NSString *webServiceString = @"http://www.webservicex.net/ConvertTemperature.asmx/ConvertTemp?" 
         @"Temperature=100&FromUnit=degreeCelsius&ToUnit=degreeFahrenheit";
     NSURL *url = [NSURL URLWithString:webServiceString];
 //    NSString *webHtml = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
@@ -81,7 +81,7 @@
      */
     myData = [[NSMutableData alloc] init];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request  delegate:self startImmediately:YES];
+    myConnection = [[NSURLConnection alloc] initWithRequest:request  delegate:self startImmediately:YES];
     
     self.window.backgroundColor = [UIColor yellowColor];
     [self.window makeKeyAndVisible];

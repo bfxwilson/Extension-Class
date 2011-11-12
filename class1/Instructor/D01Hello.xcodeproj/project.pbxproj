@@ -117,6 +117,7 @@
 		FE68637B1435532900EAFB0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Servin Corporation";
 			};
 			buildConfigurationList = FE68637E1435532900EAFB0B /* Build configuration list for PBXProject "D01Hello" */;
@@ -226,6 +227,7 @@
 				FE6863941435532900EAFB0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

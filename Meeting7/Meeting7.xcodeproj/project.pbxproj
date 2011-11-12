@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE67C4F8146CBC5D009DD9DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE67C4F7146CBC5D009DD9DC /* UIKit.framework */; };
+		FE67C4FA146CBC5E009DD9DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE67C4F9146CBC5E009DD9DC /* Foundation.framework */; };
+		FE67C4FC146CBC5E009DD9DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE67C4FB146CBC5E009DD9DC /* CoreGraphics.framework */; };
+		FE67C502146CBC5E009DD9DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE67C500146CBC5E009DD9DC /* InfoPlist.strings */; };
+		FE67C505146CBC5E009DD9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE67C504146CBC5E009DD9DC /* main.m */; };
+		FE67C508146CBC5E009DD9DC /* Meeting7AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE67C507146CBC5E009DD9DC /* Meeting7AppDelegate.m */; };
+		FE67C50B146CBC5E009DD9DC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE67C509146CBC5E009DD9DC /* MainWindow.xib */; };
+		FE67C512146CC08B009DD9DC /* demo.xml in Resources */ = {isa = PBXBuildFile; fileRef = FE67C511146CC08B009DD9DC /* demo.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE67C4F3146CBC5D009DD9DC /* Meeting7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meeting7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE67C4F7146CBC5D009DD9DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE67C4F9146CBC5E009DD9DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE67C4FB146CBC5E009DD9DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE67C4FF146CBC5E009DD9DC /* Meeting7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meeting7-Info.plist"; sourceTree = "<group>"; };
+		FE67C501146CBC5E009DD9DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE67C503146CBC5E009DD9DC /* Meeting7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meeting7-Prefix.pch"; sourceTree = "<group>"; };
+		FE67C504146CBC5E009DD9DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE67C506146CBC5E009DD9DC /* Meeting7AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meeting7AppDelegate.h; sourceTree = "<group>"; };
+		FE67C507146CBC5E009DD9DC /* Meeting7AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meeting7AppDelegate.m; sourceTree = "<group>"; };
+		FE67C50A146CBC5E009DD9DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FE67C511146CC08B009DD9DC /* demo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = demo.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE67C4F0146CBC5D009DD9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE67C4F8146CBC5D009DD9DC /* UIKit.framework in Frameworks */,
+				FE67C4FA146CBC5E009DD9DC /* Foundation.framework in Frameworks */,
+				FE67C4FC146CBC5E009DD9DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE67C4E8146CBC5D009DD9DC = {
+			isa = PBXGroup;
+			children = (
+				FE67C4FD146CBC5E009DD9DC /* Meeting7 */,
+				FE67C4F6146CBC5D009DD9DC /* Frameworks */,
+				FE67C4F4146CBC5D009DD9DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE67C4F4146CBC5D009DD9DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE67C4F3146CBC5D009DD9DC /* Meeting7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE67C4F6146CBC5D009DD9DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE67C4F7146CBC5D009DD9DC /* UIKit.framework */,
+				FE67C4F9146CBC5E009DD9DC /* Foundation.framework */,
+				FE67C4FB146CBC5E009DD9DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE67C4FD146CBC5E009DD9DC /* Meeting7 */ = {
+			isa = PBXGroup;
+			children = (
+				FE67C506146CBC5E009DD9DC /* Meeting7AppDelegate.h */,
+				FE67C507146CBC5E009DD9DC /* Meeting7AppDelegate.m */,
+				FE67C509146CBC5E009DD9DC /* MainWindow.xib */,
+				FE67C4FE146CBC5E009DD9DC /* Supporting Files */,
+				FE67C511146CC08B009DD9DC /* demo.xml */,
+			);
+			path = Meeting7;
+			sourceTree = "<group>";
+		};
+		FE67C4FE146CBC5E009DD9DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE67C4FF146CBC5E009DD9DC /* Meeting7-Info.plist */,
+				FE67C500146CBC5E009DD9DC /* InfoPlist.strings */,
+				FE67C503146CBC5E009DD9DC /* Meeting7-Prefix.pch */,
+				FE67C504146CBC5E009DD9DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE67C4F2146CBC5D009DD9DC /* Meeting7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE67C50E146CBC5E009DD9DC /* Build configuration list for PBXNativeTarget "Meeting7" */;
+			buildPhases = (
+				FE67C4EF146CBC5D009DD9DC /* Sources */,
+				FE67C4F0146CBC5D009DD9DC /* Frameworks */,
+				FE67C4F1146CBC5D009DD9DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meeting7;
+			productName = Meeting7;
+			productReference = FE67C4F3146CBC5D009DD9DC /* Meeting7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE67C4EA146CBC5D009DD9DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Servin Corporation";
+			};
+			buildConfigurationList = FE67C4ED146CBC5D009DD9DC /* Build configuration list for PBXProject "Meeting7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE67C4E8146CBC5D009DD9DC;
+			productRefGroup = FE67C4F4146CBC5D009DD9DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE67C4F2146CBC5D009DD9DC /* Meeting7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE67C4F1146CBC5D009DD9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE67C502146CBC5E009DD9DC /* InfoPlist.strings in Resources */,
+				FE67C50B146CBC5E009DD9DC /* MainWindow.xib in Resources */,
+				FE67C512146CC08B009DD9DC /* demo.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE67C4EF146CBC5D009DD9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE67C505146CBC5E009DD9DC /* main.m in Sources */,
+				FE67C508146CBC5E009DD9DC /* Meeting7AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE67C500146CBC5E009DD9DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE67C501146CBC5E009DD9DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE67C509146CBC5E009DD9DC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE67C50A146CBC5E009DD9DC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE67C50C146CBC5E009DD9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE67C50D146CBC5E009DD9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FE67C50F146CBC5E009DD9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meeting7/Meeting7-Prefix.pch";
+				INFOPLIST_FILE = "Meeting7/Meeting7-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE67C510146CBC5E009DD9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meeting7/Meeting7-Prefix.pch";
+				INFOPLIST_FILE = "Meeting7/Meeting7-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE67C4ED146CBC5D009DD9DC /* Build configuration list for PBXProject "Meeting7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE67C50C146CBC5E009DD9DC /* Debug */,
+				FE67C50D146CBC5E009DD9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE67C50E146CBC5E009DD9DC /* Build configuration list for PBXNativeTarget "Meeting7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE67C50F146CBC5E009DD9DC /* Debug */,
+				FE67C510146CBC5E009DD9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE67C4EA146CBC5D009DD9DC /* Project object */;
+}
